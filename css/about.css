@@ -1,0 +1,63 @@
+/*Company*/
+section.main div.page-title{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+section.main div.page-content{
+    background: #ffffff;
+    padding: 0 120px;
+}
+section.main div.page-content b{
+    font-weight: 700;
+}
+section.main div.title{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 35px 0;
+}
+section.main div.title strong{
+    font-weight: 700;
+}
+section.main div.content{
+    font-family: "Segoe UI", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: left;
+}
+div.how-it-make{
+    margin: 50px 0;
+}
+div.how-it-make img{
+    width: 100%;
+}
+.adv_title{
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.adv_content{
+    font-family: "Segoe UI", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+.for-partners{
+    margin-bottom: 50px;
+}
+div.for-partners > div.title{
+    text-transform: none;
+}
+.for-partners .contacts a{
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+}
