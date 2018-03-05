@@ -481,6 +481,13 @@
 	.hidden-xs{
 		display: none !important;
 	}
+	.ui-selectmenu-button.ui-button {
+		width: 100%;
+	}
+	.p-service__select {
+		max-width: 300px;
+		margin: 0 auto;
+	}
 	.section-header > div{
 		width: 100%;
 		text-align: center;

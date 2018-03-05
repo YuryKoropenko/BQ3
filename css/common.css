@@ -851,6 +851,10 @@ section.main div.page-title{
     margin-top: 35px;
     margin-bottom: 30px;
 }
+section.main div.page-title>span{
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+}
 section.main div.page-content{
     background: #ffffff;
     padding: 0 120px;
@@ -1432,4 +1436,74 @@ div.load-more{
 .more:hover a{
     color: #fff;
     transition: all .5s;
+}
+section.main div.content-serv {
+  margin: 35px 0;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: normal;
+}
+.ui-selectmenu-button.ui-button {
+  width: 332px;
+  padding: 0;
+  height: 60px;
+  border: 1px solid #d1d1d1;
+  background-color: transparent;
+  outline: none;
+  border-radius: 9px;
+}
+.ui-selectmenu-text {
+  margin-right: 0;
+  line-height: 58px;
+  padding-left: 78px;
+  font-size: 24px;
+  color: #515151;
+  position: relative;
+}
+.ui-selectmenu-text::before {
+  border: 16px solid transparent; border-top: 16px solid #ee0012;
+  content: '';
+  display: block;
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  margin-top: -8px;
+  height: 16px;
+  width: 16px;
+}
+.ui-selectmenu-button-open .ui-selectmenu-text::before {
+  display: none;
+}
+.ui-selectmenu-button-open .ui-selectmenu-text::after {
+  border: 16px solid transparent; border-bottom: 16px solid #ee0012;
+  content: '';
+  display: block;
+  position: absolute;
+  left: 12px;
+  bottom: 50%;
+  margin-bottom: -8px;
+  height: 16px;
+  width: 16px;
+}
+.ui-menu .ui-menu-item-wrapper {
+  font-size: 24px;
+}
+.p-service__select {
+  padding-bottom: 30px;
+}
+.p-service__mblock {
+  display: block;
+  background-color: #efefef;
+  margin-bottom: 70px;
+}
+.p-service__tabs {
+  font-size: 0;
+}
+.p-service__tab {
+  display: inline-block;
+  font-size: 28px;
+  color: #000;
+  border: 1px solid #d4d4d4;
+  padding-left: 79px;
+  padding-right: 55px;
 }
