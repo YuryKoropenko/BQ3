@@ -80,4 +80,12 @@ $(document).ready(function() {
     $('.p-card__tabs-block-2').hide();
     $('.p-card__tabs-block-3').hide();
   });
+
+  $('.p-support__item > span').on('click', function() {
+    $(this).parent().children('.p-support__subquest').slideToggle();
+  });
+  $('.p-support__subitem > span').on('click', function() {
+    $(this).parent().children('.p-support__subitem-otv').slideToggle();
+    $(this).parent().toggleClass('active');
+  });
 });
