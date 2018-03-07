@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/ionicons.css">
     <link rel="stylesheet" href="js/library/slick/slick.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/media.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
@@ -99,7 +100,7 @@
         </div>
         <div class="col-md-12 col-lg-7">
           <div class="page-buy__wp">
-            <a href="#" class="page-buy">
+            <a href="#buy-form" class="page-buy page-buy__button">
               Купить
             </a>
           </div>
@@ -124,7 +125,7 @@
       </div>
     </div>
     <div class="wht__block">
-      <div class="container-fluid">
+      <div class="container-fluid pad">
         <div class="row">
           <div class="col-md-6">
             <div class="p-card__left">
@@ -133,6 +134,14 @@
           </div>
           <div class="col-md-6">
             <div class="p-card__right">
+              <div class="p-card__skid">
+                <div class="p-card__skid-second">
+                  Sale
+                </div>
+                <div class="p-card__skid-first">
+                  -35%
+                </div>
+              </div>
               <div class="p-card__pres">
                 <strong>Безрамочный</strong> экран, <strong>Двойная</strong> камера
               </div>
@@ -166,7 +175,7 @@
                 <div class="row">
                   <div class="col-md-6">
                     <div class="p-card__like">
-                  
+                      Набор сервисов
                     </div>
                   </div>
                   <div class="col-md-6">
@@ -195,7 +204,7 @@
       </div>
     </div>
     <div class="white__block">
-      <div class="container-fluid">
+      <div class="container-fluid pad">
         <div class="row">
           <div class="col-md-6">
             <div class="p-card__har">
@@ -262,6 +271,29 @@
         </div>
         <div class="p-card__tabs-block p-card__tabs-block-3">
           <div class="row">
+            <div class="col-12">
+              <div class="p-card__galery-slider">
+                <a href="#" class="p-card__galery">
+                  <img src="img/phone.png" alt="">
+                </a>
+                <a href="#" class="p-card__galery">
+                  <img src="img/phone.png" alt="">
+                </a>
+                <a href="#" class="p-card__galery">
+                  <img src="img/phone.png" alt="">
+                </a>
+                <a href="#" class="p-card__galery">
+                  <img src="img/phone.png" alt="">
+                </a>
+                <a href="#" class="p-card__galery">
+                  <img src="img/phone.png" alt="">
+                </a>
+                <a href="#" class="p-card__galery">
+                  <img src="img/phone.png" alt="">
+                </a>
+              </div>
+            </div>
+            <!--
             <div class="col-md-4">
               <a href="#" class="p-card__galery">
                 <img src="img/phone.png" alt="">
@@ -277,6 +309,7 @@
                 <img src="img/phone.png" alt="">
               </a>
             </div>
+          -->
           </div>
         </div>
         <div class="p-card__tabs-block p-card__tabs-block-4">
@@ -510,11 +543,31 @@
       </div>
   </footer>
 
+  <div id="buy-form" class="p-form" style="display: none;">
+    <div class="p-form__wrapper">
+      <div class="p-form__title">
+        Купить
+      </div>
+      <div class="p-form__inputs">
+        <input type="text" class="p-form__input" placeholder="Имя*">
+        <input type="text" class="p-form__input" placeholder="Email*">
+        <input type="text" class="p-form__input" placeholder="Телефон*">
+        <textarea name="" id="" cols="30" rows="10" class="p-form__textarea" placeholder="Сообщение"></textarea>
+      </div>
+      <div class="p-form__button">
+        <a href="#" class="page-buy">
+          Купить
+        </a>
+      </div>
+    </div>
+  </div>
+
   <script src="js/jquery-3.2.1.min.js"></script>
   <script src="js/library/slick/slick.min.js"></script>
   <script src="js/library/countdown/jquery.countdown.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/headhesive.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/js.js"></script>
 </body>
 </html>

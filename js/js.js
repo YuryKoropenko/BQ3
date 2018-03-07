@@ -16,7 +16,10 @@ $('.main-slider').slick({
   fade: true,
   cssEase: 'linear'
 });
-$('#clock').countdown('2018/03/05', function(event) {
+
+
+
+$('#clock').countdown('2018/03/14', function(event) {
   var $this = $(this).html(event.strftime(''
     + '<div class="countdown-item"><div class="countdown-title">%d</div> <div class="countdown-name">дня</div></div> '
     + '<div class="countdown-item"><div class="countdown-title">%H</div> <div class="countdown-name">часов</div></div> '
@@ -71,6 +74,13 @@ $(document).ready(function() {
     $('.p-card__tabs-block-1').hide();
     $('.p-card__tabs-block-2').hide();
     $('.p-card__tabs-block-4').hide();
+    $('.p-card__galery-slider').slick({
+      dots: false,
+      arrows: true,
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 3
+    });
   });
   $('.p-card__tabs-item-4').on('click', function() {
     $('.p-card__tabs-item').removeClass('active');
@@ -88,4 +98,6 @@ $(document).ready(function() {
     $(this).parent().children('.p-support__subitem-otv').slideToggle();
     $(this).parent().toggleClass('active');
   });
+
+  $('.page-buy__button').fancybox();
 });

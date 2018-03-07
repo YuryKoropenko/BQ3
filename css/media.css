@@ -696,6 +696,9 @@
 	.p-card__galery {
 		height: 380px;
 	}
+	.p-form__button {
+		padding-top: 0;
+	}
 }
 @media(max-width: 575px){
 	.product-item{
@@ -786,5 +789,8 @@
 	}
 	.tab-menu{
 		font-size: 16px;
+	}
+	.p-form {
+		width: 90%;
 	}
 }
